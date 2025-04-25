@@ -16,8 +16,8 @@ jobs:
           python-version: '3.10'  # укажи нужную версию
       - name: Install Chrome
         run: |
-          choco install google-chrome --ignore-checksums -y
-          shell: powershell
+          choco install googlechrome --ignore-checksums -y
+        shell: powershell
 
       - name: Install dependencies
         run: pip install -r requirements.txt
