@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 
 
 
-
 def test_open_s6(brws):
     brws.get('https://demoblaze.com/index.html')
     gS6 = brws.find_element(By.XPATH, '//a[text()="Samsung galaxy s6"]')

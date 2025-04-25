@@ -29,3 +29,5 @@ def test_izvozchik_reviews_real_count(driver):
 
     # Проверка: должно быть ровно 7 отзывов
     assert len(comments) == 7, f"Ожидалось 7 отзывов, но найдено: {len(comments)}"
+
+
