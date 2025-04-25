@@ -2,7 +2,7 @@ import pytest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-
+from selenium.webdriver.chrome.options import Options
 
 
 def test_open_s6(brws):
